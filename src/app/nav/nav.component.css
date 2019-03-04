@@ -1,0 +1,21 @@
+.bg-dark {
+    background-color: #7d77cd!important;
+}
+
+.btn-success:disabled {
+    color: #fff;
+    background-color: #39FF14;
+    border-color: #39FF14;
+}
+
+.dropdown, .dropdown-toggle, .dropdown-item {
+ cursor: pointer;
+}
+
+.fa-user {
+    color: #6c66b1;
+}
+
+.container {
+    max-width: 1310px;
+}

@@ -1,0 +1,157 @@
+[debug] [2019-03-04T06:14:57.645Z] ----------------------------------------------------------------------
+[debug] [2019-03-04T06:14:57.645Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vikas singh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-03-04T06:14:57.645Z] CLI Version:   6.4.0
+[debug] [2019-03-04T06:14:57.645Z] Platform:      win32
+[debug] [2019-03-04T06:14:57.645Z] Node Version:  v8.11.2
+[debug] [2019-03-04T06:14:57.645Z] Time:          Mon Mar 04 2019 11:44:57 GMT+0530 (India Standard Time)
+[debug] [2019-03-04T06:14:57.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-04T06:14:57.661Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-04T06:14:57.663Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Project\dropnet
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-03-04T06:15:02.701Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-03-04T06:15:03.302Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote n/404.html
+[debug] [2019-03-04T06:15:24.009Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-03-04T06:15:25.488Z] Error: unable to get local issuer certificate
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2019-03-04T06:15:33.233Z] ----------------------------------------------------------------------
+[debug] [2019-03-04T06:15:33.251Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vikas singh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-03-04T06:15:33.251Z] CLI Version:   6.4.0
+[debug] [2019-03-04T06:15:33.251Z] Platform:      win32
+[debug] [2019-03-04T06:15:33.251Z] Node Version:  v8.11.2
+[debug] [2019-03-04T06:15:33.252Z] Time:          Mon Mar 04 2019 11:45:33 GMT+0530 (India Standard Time)
+[debug] [2019-03-04T06:15:33.252Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-04T06:15:33.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-04T06:15:33.263Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Project\dropnet
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-03-04T06:15:48.617Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-03-04T06:15:49.103Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-03-04T06:15:55.281Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-03-04T06:15:56.795Z] Error: unable to get local issuer certificate
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2019-03-04T06:18:23.170Z] ----------------------------------------------------------------------
+[debug] [2019-03-04T06:18:23.173Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vikas singh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-03-04T06:18:23.173Z] CLI Version:   6.4.0
+[debug] [2019-03-04T06:18:23.174Z] Platform:      win32
+[debug] [2019-03-04T06:18:23.174Z] Node Version:  v8.11.2
+[debug] [2019-03-04T06:18:23.174Z] Time:          Mon Mar 04 2019 11:48:23 GMT+0530 (India Standard Time)
+[debug] [2019-03-04T06:18:23.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-04T06:18:23.186Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-04T06:18:23.188Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Project\dropnet
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-03-04T06:18:28.706Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-03-04T06:18:29.265Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-03-04T06:18:40.676Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-03-04T06:18:42.128Z] Error: unable to get local issuer certificate
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
