@@ -13,6 +13,7 @@ export class MemberListComponent implements OnInit {
   ngOnInit() {
    this.authService.getUserProfile()
       .subscribe((response) => {
+        console.log(response);
         this.userData = response;
       }, err => {
         // console.log(err);
